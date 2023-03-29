@@ -21,25 +21,40 @@ input {
     display: none !important;
 }
 
+
+
+
+
 .intro{
-    width: 100%;
-    
+    background-color: blueviolet;
 }
 
 
-.intro .text{
-    font-size: 72px;
-    font-style: normal;
-    font-weight: bold;
-    font-stretch: normal;
-    line-height: 93.6px;
-    color: tomato;
-    letter-spacing: normal;
-    word-break: keep-all;
-    -webkit-font-smoothing: subpixel-antialiased;
-    margin-bottom: auto 0;
+
+
+
+.intro img{
+width: 100%;
+position: relative;
+
 }
-    
+   
+.intro img.text{
+    position: absolute;
+   
+}
+
+ .text{
+    margin: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 
